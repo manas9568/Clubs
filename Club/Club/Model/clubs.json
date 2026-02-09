@@ -1,0 +1,150 @@
+{
+  "clubs": [
+    {
+      "id": "club_1",
+      "name": "Kafka Circle",
+      "category": "dark",
+      "description": "For readers who seek meaning in the chaos",
+      "image_path": "kafka_circle.jpg",
+      "member_count": 928,
+      "language": "English",
+      "is_joined": true,
+      "section": "my_clubs"
+    },
+    {
+      "id": "club_2",
+      "name": "Poetry Collective",
+      "category": "poetry",
+      "description": "Exploring magical realms and deep mysteries.",
+      "image_path": "Club2.jpg",
+      "member_count": 853,
+      "language": "English",
+      "is_joined": true,
+      "section": "my_clubs"
+    },
+    {
+      "id": "club_3",
+      "name": "Tolkien Fellowship",
+      "category": "fantasy",
+      "description": "For readers who seek meaning in the chaos",
+      "image_path": "kafka_circle.jpg",
+      "member_count": 742,
+      "language": "English",
+      "is_joined": false,
+      "section": "recommended"
+    },
+    {
+      "id": "club_4",
+      "name": "Dark Academia",
+      "category": "philosophy",
+      "description": "Words that breathe.",
+      "image_path": "kafka_circle.jpg",
+      "member_count": 681,
+      "language": "English",
+      "is_joined": false,
+      "section": "recommended"
+    },
+    {
+      "id": "club_5",
+      "name": "Austen House",
+      "category": "classics",
+      "description": "Elegance, wit, and romance",
+      "image_path": "joined.jpg",
+      "member_count": 928,
+      "language": "English",
+      "is_joined": false,
+      "section": "recommended"
+    },
+    {
+      "id": "club_6",
+      "name": "Kafka’s Work",
+      "category": "dark",
+      "description": "For readers who seek meaning in the chaos",
+      "image_path": "joined.jpg",
+      "member_count": 853,
+      "language": "English",
+      "is_joined": false,
+      "section": "recommended"
+    },
+    {
+      "id": "club_6",
+      "name": "Austen House",
+      "category": "classics",
+      "description": "Elegance, wit, and romance",
+      "image_path": "joined.jpg",
+      "member_count": 928,
+      "language": "English",
+      "is_joined": false,
+      "section": "trending"
+    },
+    {
+      "id": "club_7",
+      "name": "Austen House",
+      "category": "classics",
+      "description": "A space for book lovers to share thoughts, quotes, and weekend reads.",
+      "image_path": "Club1.jpg",
+      "member_count": 928,
+      "language": "English",
+      "is_joined": false,
+      "section": "my_clubs"
+    },
+    {
+        "id": "club_8",
+        "name": "Austen House",
+        "category": "classics",
+        "description": "Elegance, wit, and romance",
+        "image_path": "joined.jpg",
+        "member_count": 928,
+        "language": "English",
+        "is_joined": false,
+        "section": "my_clubs"
+      },
+    {
+        "id": "club_8",
+        "name": "Austen House",
+        "category": "classics",
+        "description": "A space for book lovers to share thoughts, quotes, and weekend reads.",
+        "image_path": "Club3.jpg",
+        "member_count": 928,
+        "language": "English",
+        "is_joined": false,
+        "section": "my_clubs"
+      },
+    {
+        "id": "club_8",
+        "name": "Austen House",
+        "category": "classics",
+        "description": "Elegance, wit, and romance",
+        "image_path": "Club4.jpg",
+        "member_count": 928,
+        "language": "English",
+        "is_joined": false,
+        "section": "my_clubs"
+      },
+    {
+        "id": "club_8",
+        "name": "Austen House",
+        "category": "classics",
+        "description": "Elegance, wit, and romance",
+        "image_path": "joined.jpg",
+        "member_count": 928,
+        "language": "English",
+        "is_joined": false,
+        "section": "recommended"
+      }
+  ],
+  "total_count": 8,
+  "categories": [
+    "dark",
+    "poetry",
+    "fantasy",
+    "philosophy",
+    "classics"
+  ],
+  "sections": [
+    "my_clubs",
+    "recommended",
+    "trending"
+  ],
+  "generated_at": "2026-02-05 10:15:00"
+}
