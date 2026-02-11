@@ -13,4 +13,5 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var desc: UILabel!
     @IBOutlet weak var genre: UILabel!
     @IBOutlet weak var view: UIView!
+    
 }

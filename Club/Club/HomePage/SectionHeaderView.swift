@@ -10,25 +10,27 @@ import UIKit
 class SectionHeaderView: UICollectionReusableView {
 
     @IBOutlet var headerButton: UIButton!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var chevronImageView: UIImageView!
+    @IBOutlet var countLabel: UILabel!
+
     var onHeaderButtonTapped: (() -> Void)?
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        
-//        SectionHeaderView.delegate = self
     }
-    func configure(with title: String) {
-        headerButton.setTitle(title, for: .normal)
+
+    func configure(with title: String, count: Int? = nil) {
+        titleLabel.text = title
+        if let count = count {
+            countLabel.text = "\(count) Clubs"
+            countLabel.isHidden = false
+        } else {
+            countLabel.isHidden = true
+        }
     }
-    
+
     @IBAction func ButtonClicked(_ sender: Any) {
         onHeaderButtonTapped?()
     }
-    
 }
-//extension SectionHeaderView: UICollectionViewDelegate{
-//        func (_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//            performSegue(withIdentifier: "homeToClubList", sender: nil)
-//    }
-//}

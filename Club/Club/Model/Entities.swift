@@ -9,15 +9,15 @@ import Foundation
 
 // MARK: - Club
 struct Club: Codable, Identifiable {
-    let id: String
-    let name: String
-    let category: ClubCategory
-    let description: String
-    let imagePath: String
-    let memberCount: Int
-    let language: String
-    let isJoined: Bool
-    let section: ClubSection
+    let id: String?
+    let name: String?
+    let category: ClubCategory?
+    let description: String?
+    let imagePath: String?
+    let memberCount: Int?
+    let language: String?
+    let isJoined: Bool?
+    let section: ClubSection?
 
     enum CodingKeys: String, CodingKey {
         case id

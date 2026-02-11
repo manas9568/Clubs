@@ -48,11 +48,11 @@ extension MyClubsViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
-        cell.iconimageView.image = UIImage(named: club[indexPath.row].imagePath)
+        cell.iconimageView.image = UIImage(named: club[indexPath.row].imagePath!)
         cell.iconimageView.layer.cornerRadius = 24
         cell.titlelabel.text = club[indexPath.row].name
         cell.desc.text = club[indexPath.row].description
-        cell.genre.text = club[indexPath.row].category.displayName
+        cell.genre.text = club[indexPath.row].category?.displayName
         
         //giving shadow and radius to the view
         cell.view.layer.cornerRadius = 24
